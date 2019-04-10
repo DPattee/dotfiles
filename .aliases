@@ -20,7 +20,7 @@ else # macOS `ls`
 fi
 
 # default params and color for 'ls'
-alias ls="command ls -lagFh ${colorflag}"
+alias ls="ls -lagFh ${colorflag}"
 
 # Always enable colored `grep` output
 # Note: `GREP_OPTIONS="--color=auto"` is deprecated, hence the alias usage.
